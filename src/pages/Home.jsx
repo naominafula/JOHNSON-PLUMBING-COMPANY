@@ -18,7 +18,7 @@ const services = [
   {
     title: 'Residential Plumbing',
     description: 'Complete plumbing solutions for homes, including fixtures, piping, and repairs with minimal disruption.',
-    image: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=900&q=80`,
+    image: `${import.meta.env.BASE_URL}/images/Emergency Faucet Repair in Newnan, GA.jpeg?auto=format&fit=crop&w=900&q=80`,
     icon: Droplets,
   },
   {
@@ -30,7 +30,7 @@ const services = [
   {
     title: 'Emergency Plumbing',
     description: 'Rapid response for urgent leaks, blocked drains, and unexpected failures when you need help fast.',
-    image: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=900&q=80`,
+    image: `${import.meta.env.BASE_URL}/images/The quality of a project is often decided long….jpeg?auto=format&fit=crop&w=900&q=80`,
     icon: Clock3,
   },
   {
