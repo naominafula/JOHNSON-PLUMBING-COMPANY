@@ -3,11 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://naominafula.github.io/JOHNSON-PLUMBING-COMPANY",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^1.70.0",
@@ -20,6 +23,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "autoprefixer": "^10.6.2",
+    "gh-pages": "^6.1.0",
     "oxlint": "^1.90.0",
     "postcss": "^8.5.32",
     "tailwindcss": "^3.4.17",

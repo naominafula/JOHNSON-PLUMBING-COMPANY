@@ -24,7 +24,7 @@ const services = [
   {
     title: 'Commercial Plumbing',
     description: 'Reliable service for offices, retail spaces, and commercial facilities requiring efficient, code-compliant systems.',
-    image: 'public/images/The quality of a project is often decided long….jpeg?auto=format&fit=crop&w=900&q=80',
+    image: '/images/Common Commercial Plumbing Issues and How to Fix Them.jpeg?auto=format&fit=crop&w=900&q=80',
     icon: Wrench,
   },
   {
@@ -36,7 +36,7 @@ const services = [
   {
     title: 'Water Heater Service',
     description: 'Professional installation, maintenance, and repair for tank and tankless water heating systems.',
-    image: 'public/images/Home Efficiency Enhanced Through Tankless Water Heater Installation by Bedrock Plumbing & Drain C_.jpeg?auto=format&fit=crop&w=900&q=80',
+    image: '/images/Home Efficiency Enhanced Through Tankless Water Heater Installation by Bedrock Plumbing & Drain C_.jpeg?auto=format&fit=crop&w=900&q=80',
     icon: Sparkles,
   },
 ]
@@ -69,13 +69,13 @@ const testimonials = [
   {
     name: 'Naomi Nafula',
     role: 'Homeowner',
-    avatar: 'public/images/WhatsApp Image 2026-11-10 at 11.22.33 AM.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: '/images/WhatsApp Image 2026-11-10 at 11.22.33 AM.jpeg?auto=format&fit=crop&w=300&q=80',
     quote: 'Johnson Plumbing arrived the same day and fixed a major leak in our kitchen. The team was professional, respectful, and very tidy.',
   },
   {
     name: 'Ham Phillips',
     role: 'Property Manager',
-    avatar: 'public/images/WhatsApp Image 2026-11-10 at 11.30.31 AM.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: '/images/WhatsApp Image 2026-11-10 at 11.30.31 AM.jpeg?auto=format&fit=crop&w=300&q=80',
     quote: 'Their commercial maintenance service keeps our building running smoothly. The communication and workmanship have been excellent.',
   },
   {
@@ -84,29 +84,24 @@ const testimonials = [
     avatar: '/images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=300&q=80',
     quote: 'We hired them for a full bathroom remodel and the final result was stunning. We would absolutely call them again.',
   },
-
   {
-
     name: 'Tisha Muthoni',
     role: 'Homeowner',
-    avatar: 'public/images/687150855681385903.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: '/images/687150855681385903.jpeg?auto=format&fit=crop&w=300&q=80',
     quote: 'I had a plumbing emergency late at night, and they responded quickly and fixed the issue. I felt safe and well taken care of.',
   },
-
-
   {
     name: 'David Clark',
     role: 'Homeowner',
-    avatar: 'public/images/951244752535308854.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: '/images/951244752535308854.jpeg?auto=format&fit=crop&w=300&q=80',
     quote: 'The team was courteous, efficient, and left the work area spotless. I highly recommend their services.',
   },
-
   {
     name: 'Alicia Reed',
     role: 'Client',
-    avatar: 'public/images/611645193176191588.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: '/images/611645193176191588.jpeg?auto=format&fit=crop&w=300&q=80',
     quote: 'They installed a new water heater for our office, and the process was seamless. The technician explained everything clearly.',
-  }
+  },
 ]
 
 function Home() {
@@ -114,22 +109,22 @@ function Home() {
     <>
       <Hero />
 
-      <main className="section-shell py-20">
+      <main className="section-shell py-12 sm:py-16 lg:py-20">
         <section className="mb-8">
-          <div className="flex flex-wrap items-center justify-center gap-3 rounded-[2rem] border border-slate-200 bg-white p-4 shadow-soft md:gap-5 md:p-6">
+          <div className="flex flex-wrap items-center justify-center gap-2 rounded-[2rem] border border-slate-200 bg-white p-3 shadow-soft sm:gap-3 md:gap-5 md:p-6">
             {['Licensed & Insured', 'Same-Day Service', 'Upfront Pricing', 'Family-Owned Business'].map((item) => (
-              <div key={item} className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700">
+              <div key={item} className="rounded-full bg-slate-100 px-3 py-2 text-xs font-medium text-slate-700 sm:text-sm">
                 {item}
               </div>
             ))}
           </div>
         </section>
 
-        <section className="mb-20">
-          <div className="mb-10 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+        <section className="mb-16 sm:mb-20">
+          <div className="mb-8 flex flex-col gap-3 md:mb-10 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-700">Our Services</p>
-              <h2 className="mt-2 text-3xl font-black text-slate-900 md:text-4xl">Expert Plumbing for Every Need</h2>
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-sky-700 sm:text-sm">Our Services</p>
+              <h2 className="mt-2 text-2xl font-black text-slate-900 sm:text-3xl md:text-4xl">Expert Plumbing for Every Need</h2>
             </div>
             <Link to="/services" className="inline-flex items-center gap-2 text-sm font-semibold text-sky-700 transition hover:text-sky-900">
               View all services
@@ -144,15 +139,15 @@ function Home() {
           </div>
         </section>
 
-        <section className="mb-20 rounded-[2rem] bg-slate-100 p-6 md:p-10">
-          <div className="mb-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-700">Why Choose Us</p>
-            <h2 className="mt-2 text-3xl font-black text-slate-900 md:text-4xl">Built on Trust, Speed and Craftsmanship</h2>
+        <section className="mb-16 rounded-[2rem] bg-slate-100 p-5 sm:p-6 md:mb-20 md:p-10">
+          <div className="mb-8 text-center sm:mb-10">
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-sky-700 sm:text-sm">Why Choose Us</p>
+            <h2 className="mt-2 text-2xl font-black text-slate-900 sm:text-3xl md:text-4xl">Built on Trust, Speed and Craftsmanship</h2>
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
             {features.map(({ title, description, icon: Icon }) => (
-              <div key={title} className="rounded-[2rem] bg-white p-6 shadow-soft transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_70px_rgba(14,116,144,0.12)]">
+              <div key={title} className="rounded-[2rem] bg-white p-5 shadow-soft transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_70px_rgba(14,116,144,0.12)] sm:p-6">
                 <div className="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-sky-100 text-sky-700">
                   <Icon className="h-6 w-6" />
                 </div>
@@ -163,15 +158,15 @@ function Home() {
           </div>
         </section>
 
-        <section className="mb-20 rounded-[2rem] bg-sky-50 p-6 md:p-10">
-          <div className="mb-10 text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-700">Our Process</p>
-            <h2 className="mt-2 text-3xl font-black text-slate-900 md:text-4xl">A smooth, stress-free plumbing experience</h2>
+        <section className="mb-16 rounded-[2rem] bg-sky-50 p-5 sm:p-6 md:mb-20 md:p-10">
+          <div className="mb-8 text-center sm:mb-10">
+            <p className="text-xs font-semibold uppercase tracking-[0.25em] text-sky-700 sm:text-sm">Our Process</p>
+            <h2 className="mt-2 text-2xl font-black text-slate-900 sm:text-3xl md:text-4xl">A smooth, stress-free plumbing experience</h2>
           </div>
 
           <div className="grid gap-6 lg:grid-cols-3">
             {processSteps.map(({ step, title, text }) => (
-              <div key={step} className="premium-card rounded-[2rem] bg-white p-6">
+              <div key={step} className="premium-card rounded-[2rem] bg-white p-5 sm:p-6">
                 <p className="text-sm font-black tracking-[0.25em] text-sky-700">{step}</p>
                 <h3 className="mt-5 text-2xl font-bold text-slate-900">{title}</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-600">{text}</p>
@@ -180,19 +175,19 @@ function Home() {
           </div>
         </section>
 
-        <section className="mb-20">
+        <section className="mb-16 sm:mb-20">
           <Testimonial items={testimonials} />
         </section>
 
-        <section className="mb-20 rounded-[2rem] bg-slate-950 p-8 text-white md:p-12">
-          <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
+        <section className="mb-4 rounded-[2rem] bg-slate-950 p-5 text-white sm:p-8 md:p-12">
+          <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-300">Need Help Fast?</p>
-              <h2 className="mt-2 text-3xl font-black md:text-4xl">Book a plumbing expert for your home or business.</h2>
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-sky-300 sm:text-sm">Need Help Fast?</p>
+              <h2 className="mt-2 text-2xl font-black sm:text-3xl md:text-4xl">Book a plumbing expert for your home or business.</h2>
             </div>
 
-            <div className="flex flex-col gap-4 sm:flex-row lg:justify-end">
-              <a href="tel:+15550178" className="btn-primary justify-center">
+            <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
+              <a href="tel:+254799323594" className="btn-primary justify-center">
                 Call Now
               </a>
               <Link to="/contact" className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10">
@@ -202,10 +197,10 @@ function Home() {
           </div>
         </section>
 
-        <section className="mb-4 rounded-[2rem] border border-slate-200 bg-white p-6 shadow-soft md:p-8">
-          <div className="grid gap-8 md:grid-cols-3">
+        <section className="rounded-[2rem] border border-slate-200 bg-white p-5 shadow-soft sm:p-6 md:p-8">
+          <div className="grid gap-6 md:grid-cols-3">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-700">Service promise</p>
+              <p className="text-xs font-semibold uppercase tracking-[0.25em] text-sky-700 sm:text-sm">Service promise</p>
               <h3 className="mt-3 text-2xl font-black text-slate-900">Quality you can count on.</h3>
             </div>
             <div className="flex items-center gap-3 rounded-2xl bg-slate-50 p-4">

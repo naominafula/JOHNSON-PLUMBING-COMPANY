@@ -30,7 +30,7 @@ const serviceData = [
 		description:
 			'Thorough diagnosis and repair solutions to prevent leaks, pressure issues, and damage.',
 		image:
-			'public/images/Plumber Dubai _ Before & After Emergency Leak Repair.jpeg?auto=format&fit=crop&w=900&q=80',
+			'/images/Plumber Dubai _ Before & After Emergency Leak Repair.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Hammer,
 	},
 	{
@@ -62,7 +62,7 @@ const serviceData = [
 		description:
 			'Efficient installation, replacement, and repair solutions for modern water-heating systems.',
 		image:
-			'public/images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80',
+			'/images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Wrench,
 	},
 	{
@@ -86,7 +86,7 @@ const serviceData = [
 		description:
 			'Safe and effective water tank solutions to meet residential and commercial water needs.',
 		image:
-			'public/images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80',
+			'/images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Droplets,
 	},
 	{
@@ -94,19 +94,19 @@ const serviceData = [
 		description:
 			'Preventive maintenance programs that reduce breakdowns and protect your systems long term.',
 		image:
-			'public/images/Emergency Faucet Repair in Newnan, GA.jpeg?auto=format&fit=crop&w=900&q=80',
+			'/images/Emergency Faucet Repair in Newnan, GA.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Wrench,
 	},
 ]
 
 function Services() {
 	return (
-		<main className="section-shell py-20">
-			<div className="mb-12 text-center">
-				<p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-700">
+		<main className="section-shell py-12 sm:py-16 lg:py-20">
+			<div className="mb-10 text-center sm:mb-12">
+				<p className="text-xs font-semibold uppercase tracking-[0.25em] text-sky-700 sm:text-sm">
 					Our Services
 				</p>
-				<h1 className="mt-3 text-4xl font-black text-slate-900 md:text-5xl">
+				<h1 className="mt-3 text-3xl font-black text-slate-900 sm:text-4xl md:text-5xl">
 					Complete plumbing support for homes and businesses
 				</h1>
 			</div>
@@ -121,25 +121,15 @@ function Services() {
 							<img
 								src={image}
 								alt={title}
-								className="h-56 w-full object-cover transition duration-500 group-hover:scale-105"
+								className="h-56 w-full object-cover transition duration-500 group-hover:scale-105 sm:h-60"
 							/>
 						</div>
-						<div className="p-6">
+						<div className="p-5 sm:p-6">
 							<div className="mb-4 flex h-12 w-12 items-center justify-center rounded-2xl bg-sky-100 text-sky-700">
 								<Icon className="h-5 w-5" />
 							</div>
-							<h2 className="text-xl font-bold text-slate-900">
-								{title}
-							</h2>
-							<p className="mt-3 text-sm leading-7 text-slate-600">
-								{description}
-							</p>
-							<button
-								type="button"
-								className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-sky-700 transition hover:text-sky-900"
-							>
-								
-							</button>
+							<h2 className="text-xl font-bold text-slate-900">{title}</h2>
+							<p className="mt-3 text-sm leading-7 text-slate-600">{description}</p>
 						</div>
 					</article>
 				))}
