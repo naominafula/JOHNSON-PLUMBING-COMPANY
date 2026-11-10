@@ -14,7 +14,7 @@ const serviceData = [
 		description:
 			'Scalable plumbing systems and maintenance services built for busy commercial environments.',
 		image:
-			`${import.meta.env.BASE_URL}images/Common Commercial Plumbing Issues and How to Fix Them.jpeg?auto=format&fit=crop&w=900&q=80`,
+			'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80',
 		icon: Building2,
 	},
 	{
@@ -30,7 +30,7 @@ const serviceData = [
 		description:
 			'Thorough diagnosis and repair solutions to prevent leaks, pressure issues, and damage.',
 		image:
-			`${import.meta.env.BASE_URL}images/Plumber Dubai _ Before & After Emergency Leak Repair.jpeg?auto=format&fit=crop&w=900&q=80`,
+			'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80',
 		icon: Hammer,
 	},
 	{
