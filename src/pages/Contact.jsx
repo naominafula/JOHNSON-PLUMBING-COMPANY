@@ -21,7 +21,7 @@ function Contact() {
               <Phone className="h-5 w-5" />
             </div>
             <h2 className="text-2xl font-bold text-slate-900">Call us now</h2>
-            <a href="tel:+15550178" className="mt-3 block text-lg font-semibold text-sky-700">+1 (555) 0178</a>
+            <a href="tel:+254799323594" className="mt-3 block text-lg font-semibold text-sky-700">+254 799 323 594</a>
             <p className="mt-2 text-sm text-slate-600">Emergency service available 24/7</p>
           </div>
 
@@ -30,7 +30,7 @@ function Contact() {
               <Mail className="h-5 w-5" />
             </div>
             <h2 className="text-2xl font-bold text-slate-900">Email us</h2>
-            <a href="mailto:hello@johnsonplumbing.com" className="mt-3 block text-lg font-semibold text-sky-700">hello@johnsonplumbing.com</a>
+            <a href="mailto:johnsonplumbing.com" className="mt-3 block text-lg font-semibold text-sky-700">johnsonplumbing.com</a>
           </div>
 
           <div className="rounded-[2rem] bg-slate-100 p-6 transition duration-300 hover:-translate-y-1">

@@ -14,7 +14,7 @@ function Hero() {
         className="absolute inset-0 bg-cover bg-center opacity-50"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80')",
+            "url('public/images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=1600&q=80')",
         }}
       />
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-sky-900/60" />

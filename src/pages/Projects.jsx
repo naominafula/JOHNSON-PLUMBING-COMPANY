@@ -1,12 +1,12 @@
 import { useMemo, useState } from 'react'
 
 const projectData = [
-  { title: 'Modern Villa Plumbing Upgrade', category: 'Residential', image: 'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80', description: 'Complete re-piping and fixture installation for a luxury residential property.' },
-  { title: 'Office Water System Retrofit', category: 'Commercial', image: 'https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=900&q=80', description: 'Commercial water distribution upgrade for a busy office building.' },
-  { title: 'Spa Bathroom Installation', category: 'Bathroom', image: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=900&q=80', description: 'New bathroom plumbing layout featuring tub, shower, and stone fixtures.' },
-  { title: 'Kitchen Renovation Plumbing', category: 'Kitchen', image: 'https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80', description: 'Full kitchen plumbing update, including sink, dishwasher, and supply changes.' },
-  { title: 'Pipe Repair in Apartment Block', category: 'Pipe Repair', image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80', description: 'Fast and efficient pipe replacement to restore water pressure and prevent future damage.' },
-  { title: 'Water Tank System Installation', category: 'Water System', image: 'https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?auto=format&fit=crop&w=900&q=80', description: 'Water tank installation designed for consistent household supply and efficiency.' },
+  { title: 'Modern Villa Plumbing Upgrade', category: 'Residential', image: 'public/images/929078598152434470.jpeg?auto=format&fit=crop&w=900&q=80', description: 'Complete re-piping and fixture installation for a luxury residential property.' },
+  { title: 'Office Water System Retrofit', category: 'Commercial', image: 'public/images/752312312803382932.jpeg?auto=format&fit=crop&w=900&q=80', description: 'Commercial water distribution upgrade for a busy office building.' },
+  { title: 'Spa Bathroom Installation', category: 'Bathroom', image: 'public/images/Is a Multi-Function Shower Head Worth It_ 🚿 _ Pros, Cons & Top Picks!.jpeg?auto=format&fit=crop&w=900&q=80', description: 'New bathroom plumbing layout featuring tub, shower, and stone fixtures.' },
+  { title: 'Kitchen Renovation Plumbing', category: 'Kitchen', image: 'public/images/Undermount Sink Installation & Support Guide Marietta.jpeg?auto=format&fit=crop&w=900&q=80', description: 'Full kitchen plumbing update, including sink, dishwasher, and supply changes.' },
+  { title: 'Pipe Repair in Apartment Block', category: 'Pipe Repair', image: 'public/images/How Much Does It Cost To Replace Your Polybutylene Pipes_.jpeg?auto=format&fit=crop&w=900&q=80', description: 'Fast and efficient pipe replacement to restore water pressure and prevent future damage.' },
+  { title: 'Water Tank System Installation', category: 'Water System', image: 'public/images/O aumento do consumo de água, as frequentes crises….jpeg?auto=format&fit=crop&w=900&q=80', description: 'Water tank installation designed for consistent household supply and efficiency.' },
 ]
 
 const filters = ['All', 'Residential', 'Commercial', 'Bathroom', 'Kitchen', 'Pipe Repair', 'Water System']
