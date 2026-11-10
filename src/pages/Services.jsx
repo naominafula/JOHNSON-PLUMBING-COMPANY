@@ -6,7 +6,7 @@ const serviceData = [
 		description:
 			'Reliable fixtures, fittings, and plumbing repairs for comfortable, efficient homes.',
 		image:
-			'/images/Expert Plumbing Services by Handyman Unique – Fast & Reliable!.jpeg?auto=format&fit=crop&w=900&q=80',
+			'/images/Undermount Sink Installation & Support Guide Marietta.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: House,
 	},
 	{
@@ -78,7 +78,7 @@ const serviceData = [
 		description:
 			'Rapid-response support for urgent leaks, burst pipes, and unexpected plumbing failures.',
 		image:
-			'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80',
+			'/images/Plumber Dubai _ Before & After Emergency Leak Repair.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Zap,
 	},
 	{
