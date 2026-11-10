@@ -6,7 +6,7 @@ const serviceData = [
 		description:
 			'Reliable fixtures, fittings, and plumbing repairs for comfortable, efficient homes.',
 		image:
-			`${import.meta.env.BASE_URL}images/Expert Plumbing Services by Handyman Unique – Fast & Reliable!.jpeg?auto=format&fit=crop&w=900&q=80`,
+			'/images/Expert Plumbing Services by Handyman Unique – Fast & Reliable!.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: House,
 	},
 	{
@@ -14,7 +14,7 @@ const serviceData = [
 		description:
 			'Scalable plumbing systems and maintenance services built for busy commercial environments.',
 		image:
-			'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80',
+			'/images/Emergency Faucet Repair in Newnan, GA.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Building2,
 	},
 	{
@@ -22,7 +22,7 @@ const serviceData = [
 		description:
 			'Professional pipe planning and installation for new builds and system upgrades.',
 		image:
-			'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80',
+			'/images/How Much Does It Cost To Replace Your Polybutylene Pipes_.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Wrench,
 	},
 	{
@@ -30,7 +30,7 @@ const serviceData = [
 		description:
 			'Thorough diagnosis and repair solutions to prevent leaks, pressure issues, and damage.',
 		image:
-			'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80',
+			'/images/A small water line problem can turn into big….jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Hammer,
 	},
 	{
