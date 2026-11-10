@@ -18,25 +18,25 @@ const services = [
   {
     title: 'Residential Plumbing',
     description: 'Complete plumbing solutions for homes, including fixtures, piping, and repairs with minimal disruption.',
-    image: 'https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80',
+    image: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=900&q=80`,
     icon: Droplets,
   },
   {
     title: 'Commercial Plumbing',
     description: 'Reliable service for offices, retail spaces, and commercial facilities requiring efficient, code-compliant systems.',
-    image: '/images/Common Commercial Plumbing Issues and How to Fix Them.jpeg?auto=format&fit=crop&w=900&q=80',
+    image: `${import.meta.env.BASE_URL}images/Common Commercial Plumbing Issues and How to Fix Them.jpeg?auto=format&fit=crop&w=900&q=80`,
     icon: Wrench,
   },
   {
     title: 'Emergency Plumbing',
     description: 'Rapid response for urgent leaks, blocked drains, and unexpected failures when you need help fast.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80',
+    image: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=900&q=80`,
     icon: Clock3,
   },
   {
     title: 'Water Heater Service',
     description: 'Professional installation, maintenance, and repair for tank and tankless water heating systems.',
-    image: '/images/Home Efficiency Enhanced Through Tankless Water Heater Installation by Bedrock Plumbing & Drain C_.jpeg?auto=format&fit=crop&w=900&q=80',
+    image: `${import.meta.env.BASE_URL}images/Home Efficiency Enhanced Through Tankless Water Heater Installation by Bedrock Plumbing & Drain C_.jpeg?auto=format&fit=crop&w=900&q=80`,
     icon: Sparkles,
   },
 ]
@@ -69,37 +69,37 @@ const testimonials = [
   {
     name: 'Naomi Nafula',
     role: 'Homeowner',
-    avatar: '/images/WhatsApp Image 2026-11-10 at 11.22.33 AM.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.22.33 AM.jpeg?auto=format&fit=crop&w=300&q=80`,
     quote: 'Johnson Plumbing arrived the same day and fixed a major leak in our kitchen. The team was professional, respectful, and very tidy.',
   },
   {
     name: 'Ham Phillips',
     role: 'Property Manager',
-    avatar: '/images/WhatsApp Image 2026-11-10 at 11.30.31 AM.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.30.31 AM.jpeg?auto=format&fit=crop&w=300&q=80`,
     quote: 'Their commercial maintenance service keeps our building running smoothly. The communication and workmanship have been excellent.',
   },
   {
     name: 'John Bush',
     role: 'Business Owner',
-    avatar: '/images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=300&q=80`,
     quote: 'We hired them for a full bathroom remodel and the final result was stunning. We would absolutely call them again.',
   },
   {
     name: 'Tisha Muthoni',
     role: 'Homeowner',
-    avatar: '/images/687150855681385903.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: `${import.meta.env.BASE_URL}images/687150855681385903.jpeg?auto=format&fit=crop&w=300&q=80`,
     quote: 'I had a plumbing emergency late at night, and they responded quickly and fixed the issue. I felt safe and well taken care of.',
   },
   {
     name: 'David Clark',
     role: 'Homeowner',
-    avatar: '/images/951244752535308854.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: `${import.meta.env.BASE_URL}images/951244752535308854.jpeg?auto=format&fit=crop&w=300&q=80`,
     quote: 'The team was courteous, efficient, and left the work area spotless. I highly recommend their services.',
   },
   {
     name: 'Alicia Reed',
     role: 'Client',
-    avatar: '/images/611645193176191588.jpeg?auto=format&fit=crop&w=300&q=80',
+    avatar: `${import.meta.env.BASE_URL}images/611645193176191588.jpeg?auto=format&fit=crop&w=300&q=80`,
     quote: 'They installed a new water heater for our office, and the process was seamless. The technician explained everything clearly.',
   },
 ]

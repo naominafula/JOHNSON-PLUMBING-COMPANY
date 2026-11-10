@@ -7,14 +7,15 @@ const highlights = [
 	{ label: 'Customer Satisfaction', value: '98%' },
 ]
 
+const heroImage = `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=1600&q=80`
+
 function Hero() {
 	return (
 		<section className="relative overflow-hidden bg-slate-900">
 			<div
 				className="absolute inset-0 bg-cover bg-center opacity-50"
 				style={{
-					backgroundImage:
-						"url('/images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=1600&q=80')",
+					backgroundImage: `url('${heroImage}')`,
 				}}
 			/>
 			<div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/80 to-sky-900/60" />

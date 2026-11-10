@@ -6,7 +6,7 @@ const serviceData = [
 		description:
 			'Reliable fixtures, fittings, and plumbing repairs for comfortable, efficient homes.',
 		image:
-			'/images/Expert Plumbing Services by Handyman Unique – Fast & Reliable!.jpeg?auto=format&fit=crop&w=900&q=80',
+			`${import.meta.env.BASE_URL}images/Expert Plumbing Services by Handyman Unique – Fast & Reliable!.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: House,
 	},
 	{
@@ -14,7 +14,7 @@ const serviceData = [
 		description:
 			'Scalable plumbing systems and maintenance services built for busy commercial environments.',
 		image:
-			'/images/Common Commercial Plumbing Issues and How to Fix Them.jpeg?auto=format&fit=crop&w=900&q=80',
+			`${import.meta.env.BASE_URL}images/Common Commercial Plumbing Issues and How to Fix Them.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Building2,
 	},
 	{
@@ -30,7 +30,7 @@ const serviceData = [
 		description:
 			'Thorough diagnosis and repair solutions to prevent leaks, pressure issues, and damage.',
 		image:
-			'/images/Plumber Dubai _ Before & After Emergency Leak Repair.jpeg?auto=format&fit=crop&w=900&q=80',
+			`${import.meta.env.BASE_URL}images/Plumber Dubai _ Before & After Emergency Leak Repair.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Hammer,
 	},
 	{
@@ -54,7 +54,7 @@ const serviceData = [
 		description:
 			'Installation and maintenance for kitchen sinks, disposals, supply lines, and plumbing layouts.',
 		image:
-			'/images/Plumbing Contractors for Kitchen Reno BC – Expert Kitchen Plumbing Services.jpeg?auto=format&fit=crop&w=900&q=80',
+			`${import.meta.env.BASE_URL}images/Plumbing Contractors for Kitchen Reno BC – Expert Kitchen Plumbing Services.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Sparkles,
 	},
 	{
@@ -62,7 +62,7 @@ const serviceData = [
 		description:
 			'Efficient installation, replacement, and repair solutions for modern water-heating systems.',
 		image:
-			'/images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80',
+			`${import.meta.env.BASE_URL}images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Wrench,
 	},
 	{
@@ -70,7 +70,7 @@ const serviceData = [
 		description:
 			'Advanced leak detection to find hidden issues before they cause costly structural damage.',
 		image:
-			'/images/A small water line problem can turn into big….jpeg?auto=format&fit=crop&w=900&q=80',
+			`${import.meta.env.BASE_URL}images/A small water line problem can turn into big….jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: ShieldCheck,
 	},
 	{
@@ -86,7 +86,7 @@ const serviceData = [
 		description:
 			'Safe and effective water tank solutions to meet residential and commercial water needs.',
 		image:
-			'/images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80',
+			`${import.meta.env.BASE_URL}images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Droplets,
 	},
 	{
@@ -94,7 +94,7 @@ const serviceData = [
 		description:
 			'Preventive maintenance programs that reduce breakdowns and protect your systems long term.',
 		image:
-			'/images/Emergency Faucet Repair in Newnan, GA.jpeg?auto=format&fit=crop&w=900&q=80',
+			`${import.meta.env.BASE_URL}images/Emergency Faucet Repair in Newnan, GA.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Wrench,
 	},
 ]
