@@ -30,7 +30,7 @@ function Contact() {
               <Mail className="h-5 w-5" />
             </div>
             <h2 className="text-2xl font-bold text-slate-900">Email us</h2>
-            <a href="mailto:johnsonplumbing.com" className="mt-3 block text-lg font-semibold text-sky-700">johnsonplumbing.com</a>
+            <a href="majiTechplumbing@gmail.com" className="mt-3 block text-lg font-semibold text-sky-700">majiTechplumbing@gmail.com</a>
           </div>
 
           <div className="rounded-[2rem] bg-slate-100 p-6 transition duration-300 hover:-translate-y-1">
@@ -38,7 +38,7 @@ function Contact() {
               <MapPin className="h-5 w-5" />
             </div>
             <h2 className="text-2xl font-bold text-slate-900">Visit our office</h2>
-            <p className="mt-3 text-base text-slate-600">245 Harbor View Drive, Suite 104</p>
+            <p className="mt-3 text-base text-slate-600">Nairobi Wendani</p>
           </div>
 
           <div className="rounded-[2rem] bg-slate-100 p-6 transition duration-300 hover:-translate-y-1">

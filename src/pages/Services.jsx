@@ -38,7 +38,7 @@ const serviceData = [
 		description:
 			'Effective drainage clearing to restore fast flow and eliminate recurring blockages.',
 		image:
-			'https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80',
+			'/images/Drain cleaning services in Ventura Country.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: Droplets,
 	},
 	{
@@ -62,7 +62,7 @@ const serviceData = [
 		description:
 			'Efficient installation, replacement, and repair solutions for modern water-heating systems.',
 		image:
-			`${import.meta.env.BASE_URL}images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80`,
+			`/images/What is a Heat Pump Water Heater_ - DIY Project_.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Wrench,
 	},
 	{

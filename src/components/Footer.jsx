@@ -17,11 +17,11 @@ function Footer() {
           <div className="space-y-5">
             <div className="flex items-center gap-3">
               <div className="flex h-12 w-12 items-center justify-center rounded-full bg-sky-500/15 text-lg font-black text-sky-300">
-                JP
+                MJ
               </div>
               <div>
-                <p className="text-lg font-black uppercase tracking-wide text-white">Johnson</p>
-                <p className="text-[10px] font-semibold uppercase tracking-[0.32em] text-slate-400">Plumbing Co.</p>
+                <p className="text-lg font-black uppercase tracking-wide text-white">MajiTech Plumbing Solution</p>
+                <p className="text-[10px] font-semibold uppercase tracking-[0.32em] text-slate-400">majitech.plumbing</p>
               </div>
             </div>
             <p className="text-sm leading-7 text-slate-300">
@@ -52,11 +52,11 @@ function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="mt-0.5 h-4 w-4 text-sky-400" />
-                <span>johnsonplumbing.com</span>
+                <span>majiTechplumbing@gmail.com</span>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 text-sky-400" />
-                <span>245 Harbor View Drive, Suite 104</span>
+                <span>Nairobi Wendani</span>
               </li>
             </ul>
           </div>

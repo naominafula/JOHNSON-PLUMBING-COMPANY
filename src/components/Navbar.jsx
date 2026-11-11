@@ -19,11 +19,11 @@ function Navbar() {
         <div className="flex h-20 items-center justify-between gap-3">
           <Link to="/" className="flex min-w-0 items-center gap-3" aria-label="Johnson Plumbing Company home">
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-sky-700 text-lg font-black text-white shadow-lg shadow-sky-200">
-              JP
+              MJ
             </div>
             <div className="min-w-0">
-              <p className="text-base font-black uppercase tracking-wide text-slate-900 sm:text-lg">Johnson</p>
-              <p className="text-[9px] font-semibold uppercase tracking-[0.28em] text-slate-500 sm:text-[10px]">Plumbing Co.</p>
+              <p className="text-base font-black uppercase tracking-wide text-slate-900 sm:text-lg">MajiTech plumbing Solution</p>
+              <p className="text-[9px] font-semibold uppercase tracking-[0.28em] text-slate-500 sm:text-[10px]">majitech.plumbing</p>
             </div>
           </Link>
 

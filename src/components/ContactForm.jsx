@@ -101,7 +101,7 @@ function ContactForm() {
             name="phone"
             value={form.phone}
             onChange={handleChange}
-            placeholder="(555) 123-4567"
+            placeholder="07XXXXXXXX"
             className="w-full rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-900 outline-none transition focus:border-sky-500 focus:bg-white"
           />
           {errors.phone && <p className="mt-2 text-sm text-red-500">{errors.phone}</p>}
