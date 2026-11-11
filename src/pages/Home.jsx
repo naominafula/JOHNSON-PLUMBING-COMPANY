@@ -70,7 +70,7 @@ const testimonials = [
     name: 'Naomi Nafula',
     role: 'Homeowner',
     avatar: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.22.33 AM.jpeg?auto=format&fit=crop&w=300&q=80`,
-    quote: 'Johnson Plumbing arrived the same day and fixed a major leak in our kitchen. The team was professional, respectful, and very tidy.',
+    quote: 'MajiTech Plumbing arrived the same day and fixed a major leak in our kitchen. The team was professional, respectful, and very tidy.',
   },
   {
     name: 'Ham Phillips',

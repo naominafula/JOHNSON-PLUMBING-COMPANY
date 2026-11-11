@@ -81,7 +81,7 @@ function Footer() {
         </div>
 
         <div className="mt-10 border-t border-slate-800 pt-6 text-center text-sm text-slate-400">
-          © 2026 Johnson Plumbing Company. All rights reserved.
+          © 2026 MajiTech Plumbing Solution. All rights reserved.
         </div>
       </div>
     </footer>
