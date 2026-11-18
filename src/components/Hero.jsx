@@ -2,7 +2,7 @@ import { ArrowRight, CheckCircle, Gauge, ShieldCheck, Wrench } from 'lucide-reac
 import { Link } from 'react-router-dom'
 
 const highlights = [
-	{ label: 'Years Experience', value: '18+' },
+	{ label: 'Years Experience', value: '2+' },
 	{ label: 'Projects Completed', value: '2.4K' },
 	{ label: 'Customer Satisfaction', value: '98%' },
 ]
@@ -11,7 +11,7 @@ const heroImage = `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 a
 
 function Hero() {
 	return (
-		<section className="relative overflow-hidden bg-slate-900">
+		<section className="relative overflow-hipublic/images/WhatsApp Image 2026-11-18 at 12.31.00 PM.jpegdden bg-slate-900">
 			<div
 				className="absolute inset-0 bg-cover bg-center opacity-50"
 				style={{
@@ -72,9 +72,9 @@ function Hero() {
 						<div className="rounded-[2rem] border border-white/10 bg-white/5 p-3 shadow-2xl backdrop-blur-xl sm:p-4">
 							<div className="overflow-hidden rounded-[1.5rem]">
 								<img
-									src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=80"
+									src="/images/WhatsApp Image 2026-11-18 at 12.31.00 PM.jpeg?auto=format&fit=crop&w=800&q=80"
 									alt="Professional plumber servicing a kitchen sink"
-									className="h-[280px] w-full object-cover sm:h-[340px] lg:h-[480px]"
+									className="h-[780px] w-full object-cover sm:h-[840px] lg:h-[480px]"
 								/>
 							</div>
 							<div className="mt-4 grid gap-3 sm:grid-cols-3">

@@ -17,9 +17,11 @@ function Navbar() {
     <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-xl">
       <div className="section-shell">
         <div className="flex h-20 items-center justify-between gap-3">
-          <Link to="/" className="flex min-w-0 items-center gap-3" aria-label="Johnson Plumbing Company home">
+          <Link to="/" className="flex min-w-0 items-center gap-3" aria-label="Majitech Plumbing Company home">
             <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-sky-500 to-sky-700 text-lg font-black text-white shadow-lg shadow-sky-200">
-              MJ
+              <div class="logo-circle">
+    <img src="/images/WhatsApp Image 2026-11-18 at 12.31.00 PM.jpeg" alt="Majitech Logo"></img>
+         </div>
             </div>
             <div className="min-w-0">
               <p className="text-base font-black uppercase tracking-wide text-slate-900 sm:text-lg">MajiTech plumbing Solution</p>

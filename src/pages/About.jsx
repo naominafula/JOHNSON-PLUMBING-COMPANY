@@ -7,9 +7,9 @@ const values = [
 ]
 
 const timeline = [
-  { year: '2008', title: 'Founded', text: 'Johnson Plumbing Company began with a mission to deliver dependable home services in the community.' },
-  { year: '2014', title: 'Expanded Services', text: 'We grew from residential repairs into full commercial and emergency plumbing support.' },
-  { year: '2020', title: 'Trusted Brand', text: 'Our reputation strengthened through consistent workmanship and customer-first service.' },
+  { title: 'Founded', text: 'MajiTech Plumbing Company began with a mission to deliver dependable home services in the community.' },
+  { title: 'Expanded Services', text: 'We grew from residential repairs into full commercial and emergency plumbing support.' },
+  { title: 'Trusted Brand', text: 'Our reputation strengthened through consistent workmanship and customer-first service.' },
 ]
 
 const team = [
@@ -26,7 +26,7 @@ function About() {
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-sky-700">About Us</p>
           <h1 className="mt-3 text-4xl font-black text-slate-900 md:text-5xl">Delivering plumbing solutions with care and precision.</h1>
           <p className="mt-6 text-lg leading-8 text-slate-600">
-            Johnson Plumbing Company has been helping homeowners and businesses solve everyday plumbing challenges with dependable service and lasting solutions.
+            Majitech Company has been helping homeowners and businesses solve everyday plumbing challenges with dependable service and lasting solutions.
           </p>
           <p className="mt-5 text-base leading-8 text-slate-600">
             From emergency repairs to custom installations, our team combines technical expertise with a strong commitment to customer care. We focus on quality, safety, and transparency in every project.
@@ -35,7 +35,7 @@ function About() {
 
         <div className="overflow-hidden rounded-[2rem] shadow-[0_25px_60px_rgba(15,23,42,0.10)]">
           <img
-            src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=1200&q=80"
+            src="/images/WhatsApp Image 2026-11-18 at 12.31.00 PM.jpeg?auto=format&fit=crop&w=1200&q=80"
             alt="Plumber working on a sink installation"
             className="h-full w-full object-cover"
           />

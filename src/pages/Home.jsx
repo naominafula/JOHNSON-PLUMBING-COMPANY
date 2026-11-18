@@ -81,7 +81,7 @@ const testimonials = [
   {
     name: 'John Bush',
     role: 'Business Owner',
-    avatar: `${import.meta.env.BASE_URL}images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=300&q=80`,
+    avatar: `${import.meta.env.BASE_URL}/images/WhatsApp Image 2026-11-10 at 11.13.16 AM.jpeg?auto=format&fit=crop&w=300&q=80`,
     quote: 'We hired them for a full bathroom remodel and the final result was stunning. We would absolutely call them again.',
   },
   {

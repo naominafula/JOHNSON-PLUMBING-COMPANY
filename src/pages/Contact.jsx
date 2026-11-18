@@ -30,7 +30,7 @@ function Contact() {
               <Mail className="h-5 w-5" />
             </div>
             <h2 className="text-2xl font-bold text-slate-900">Email us</h2>
-            <a href="majiTechplumbing@gmail.com" className="mt-3 block text-lg font-semibold text-sky-700">majiTechplumbing@gmail.com</a>
+            <a href="majitechplumbing@gmail.com" className="mt-3 block text-lg font-semibold text-sky-700">majitechplumbing@gmail.com</a>
           </div>
 
           <div className="rounded-[2rem] bg-slate-100 p-6 transition duration-300 hover:-translate-y-1">

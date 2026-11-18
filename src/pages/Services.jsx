@@ -6,7 +6,7 @@ const serviceData = [
 		description:
 			'Reliable fixtures, fittings, and plumbing repairs for comfortable, efficient homes.',
 		image:
-			'/images/Undermount Sink Installation & Support Guide Marietta.jpeg?auto=format&fit=crop&w=900&q=80',
+			'/images/WhatsApp Image 2026-11-18 at 12.31.00 PM.jpeg?auto=format&fit=crop&w=900&q=80',
 		icon: House,
 	},
 	{
@@ -54,7 +54,7 @@ const serviceData = [
 		description:
 			'Installation and maintenance for kitchen sinks, disposals, supply lines, and plumbing layouts.',
 		image:
-			`${import.meta.env.BASE_URL}images/Plumbing Contractors for Kitchen Reno BC – Expert Kitchen Plumbing Services.jpeg?auto=format&fit=crop&w=900&q=80`,
+			`public/images/WhatsApp Image 2026-11-18 at 12.30.33 PM (1).jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Sparkles,
 	},
 	{
@@ -86,7 +86,7 @@ const serviceData = [
 		description:
 			'Safe and effective water tank solutions to meet residential and commercial water needs.',
 		image:
-			`${import.meta.env.BASE_URL}images/Water storage.jpeg?auto=format&fit=crop&w=900&q=80`,
+			`/images/WhatsApp Image 2026-11-18 at 12.31.03 PM.jpeg?auto=format&fit=crop&w=900&q=80`,
 		icon: Droplets,
 	},
 	{
